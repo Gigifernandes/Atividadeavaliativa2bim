@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia dos namorados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="alinhar">
+    <div class="square">
+        <main class="organiza">
+
+            <section id="narrativa">   
+                <h3>Vamos descobrir quem é o coelho culpido que te ajudará nesse dia dos namorados?</h3>
+                <button id="proximo" type="button">Proximo</button>
+            </section>
+            
+            
+            <div class="question" style="display: none;" >
+                <h2>Quando alguem te ajuda em um relacionamento, você pede conselhos para pessoas fofas ou sinceras? </h2>
+                <input type="radio" id="sim1" name="pergunta1" value="sim">
+                <label for="sim1">sinceras</label>
+                <input type="radio" id="nao1" name="pergunta1" value="não">
+                <label for="nao1">fofas</label>
+            </div>
+            <div class="question" style="display: none;">
+                <h2>Quando alguem te ajuda em um relacionamento,você prefere que falem com a pessoa para te ajudar ou que te incentivem a você ir falar com a pessoa? </h2>
+                <input type="radio" id="sim2" name="pergunta2" value="sim">
+                <label for="sim2">Que falem por mim</label>
+                <input type="radio" id="nao2" name="pergunta2" value="não">
+                <label for="nao2">Que me incentivem</label>
+            </div>
+            <div class="question" style="display: none;">
+                <h2>Quando alguem te ajuda em um relacionamento, você tenta retribuir a ajuda ou só agradece e vai viver sua vida? </h2>
+                <input type="radio" id="sim3" name="pergunta3" value="sim">
+                <label for="sim3">Agradeço e vou viver minha vida</label>
+                <input type="radio" id="nao3" name="pergunta3" value="não">
+                <label for="nao3">Tento retribuir</label>
+            </div>
+            <div class="question" style="display: none;">
+                <h2>Quando alguem te ajuda em um relacionamento, aceita tudo que te dizem sobre a pessoa ou faz uma investigação sobre ela? </h2>
+                <input type="radio" id="sim4" name="pergunta4" value="sim">
+                <label for="sim4">investigo</label>
+                <input type="radio" id="nao4" name="pergunta4" value="não">
+                <label for="nao4">aceito tudo que dizem </label>
+            </div>
+            <div class="question" style="display: none;">
+                <h2>Quando alguem te ajuda em um relacionamento, você tenta não depender tanto do amigo que está te ajudando e age ou é lento(a) pra relacionamentos? </h2>
+                <input type="radio" id="sim5" name="pergunta5" value="sim">
+                <label for="sim5">Não depender</label>
+                <input type="radio" id="nao5" name="pergunta5" value="não">
+                <label for="nao5">Sou lento(a)</label>
+            </div>
+            
+
+            <section id="resultado" style="display: none;">
+                <h2>Seu resultado é:</h2>
+                <p id="mensagem" ></p>
+                <img id="imagem-resultado" alt="imagem" class="img">
+             </section>
+  
+            
+        </main>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
